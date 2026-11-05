@@ -2,11 +2,11 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://blog.example.com/", // TODO: 部署后替换为正式域名
+    url: "https://quant-blog-u2z.pages.dev/",
     title: "peanuts 的 AI × 量化实验室",
     description: "AI Agent 工程化 × 量化投资：端侧部署、多智能体辩论回测、A 股实战记录。",
-    author: "Yunlong Gao",
-    profile: "https://github.com/", // TODO: 替换为 GitHub 主页
+    author: "peanuts",
+    profile: "https://github.com/peanuts1994",
     ogImage: "default-og.jpg",
     lang: "en",
     timezone: "Asia/Shanghai",
@@ -29,7 +29,7 @@ export default defineAstroPaperConfig({
   socials: [
     {
       name: "github",
-      url: "https://github.com/", // TODO: 替换
+      url: "https://github.com/peanuts1994",
     },
     {
       name: "rss",
