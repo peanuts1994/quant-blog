@@ -3,7 +3,7 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://blog.example.com/", // TODO: 部署后替换为正式域名
-    title: "运龙的 AI × 量化实验室",
+    title: "peanuts 的 AI × 量化实验室",
     description: "AI Agent 工程化 × 量化投资：端侧部署、多智能体辩论回测、A 股实战记录。",
     author: "Yunlong Gao",
     profile: "https://github.com/", // TODO: 替换为 GitHub 主页
