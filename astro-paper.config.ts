@@ -2,7 +2,7 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://quant-blog-u2z.pages.dev/",
+    url: "https://peanutsblog.cn",
     title: "peanuts 的 AI × 量化实验室",
     description: "AI Agent 工程化 × 量化投资：端侧部署、多智能体辩论回测、A 股实战记录。",
     author: "peanuts",
