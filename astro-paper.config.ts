@@ -3,8 +3,8 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://peanutsblog.cn",
-    title: "peanuts 的 AI × 量化实验室",
-    description: "AI Agent 工程化 × 量化投资：端侧部署、多智能体辩论回测、A 股实战记录。",
+    title: "Peanuts 的 AI 小站",
+    description: "记录 AI 的实践与思考：AI 编程、Agent 工程化、推理与端侧部署。",
     author: "peanuts",
     profile: "https://github.com/peanuts1994",
     ogImage: "default-og.jpg",
