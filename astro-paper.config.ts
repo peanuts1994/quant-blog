@@ -4,7 +4,7 @@ export default defineAstroPaperConfig({
   site: {
     url: "https://peanutsblog.cn",
     title: "Peanuts 的 AI 小站",
-    description: "记录 AI 的实践与思考：AI 编程、Agent 工程化、推理与端侧部署。",
+    description: "对 AI 的一些思考和实践",
     author: "peanuts",
     profile: "https://github.com/peanuts1994",
     ogImage: "default-og.jpg",
