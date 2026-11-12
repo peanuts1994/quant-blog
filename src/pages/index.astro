@@ -6,14 +6,13 @@ import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
-import Socials from "@/components/Socials.astro";
 import Card from "@/components/Card.astro";
 import LinkButton from "@/components/LinkButton.astro";
 import { getSortedPosts } from "@/utils/getSortedPosts";
 import { useTranslations } from "@/i18n";
 import config from "@/config";
 
-const { socials, posts: postsConfig } = config;
+const { posts: postsConfig } = config;
 
 const locale = Astro.currentLocale ?? config.site.lang;
 const t = useTranslations(locale);
@@ -53,8 +52,9 @@ const homePath = getRelativeLocaleUrl(locale, "");
       </a>
 
       <p>
-        这里记录 AI 的实践与思考：AI 编程、Agent 工程化、推理与端侧部署。
-        从一个想法到可用的工具，把每个具体问题的方案、验证和踩坑都沉淀下来。
+        这里记录下个人对 AI 的一些思考和实践，包括但不限于 Vibe Coding、Agent
+        工程化、模型训练和部署等，定期也会更新一些对前沿论文的解读。从每一个想法到可用的产品，把每个具体问题的方案、验证和过程中遇到的问题都沉淀下来。希望和大家一起在
+        AI 领域探索，让 AI 让我们的生活变得更加便捷、有趣、多姿多彩一些。
       </p>
       <p class="mt-2">
         从{" "}
@@ -66,16 +66,6 @@ const homePath = getRelativeLocaleUrl(locale, "");
         </LinkButton>{" "}
         开始了解这个博客。
       </p>
-      {
-        socials.length > 0 && (
-          <div class="mt-4 flex max-sm:flex-col sm:items-center">
-            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">
-              {t.home.socialLinks}:
-            </div>
-            <Socials />
-          </div>
-        )
-      }
     </section>
 
     {
