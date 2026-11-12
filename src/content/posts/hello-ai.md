@@ -1,15 +1,12 @@
 ---
 title: 开篇：记录 AI 的实践与思考
-author: Peanuts
-pubDatetime: 2026-11-02T15:30:00+08:00
-modDatetime: 2026-11-11T14:29:39+08:00
-slug: hello-ai
-featured: true
-draft: false
+published: 2026-11-02T15:30:00+08:00
+updated: 2026-11-11T14:29:39+08:00
+description: 围绕 AI 编程、Agent 工程化与端侧部署，记录真实项目中的实现过程、实验结果和踩坑经验。
 tags:
   - AI
   - 随笔
-description: 围绕 AI 编程、Agent 工程化与端侧部署，记录真实项目中的实现过程、实验结果和踩坑经验。
+draft: false
 ---
 
 ## 这里会写什么
